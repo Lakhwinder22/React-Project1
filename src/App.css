@@ -1,0 +1,117 @@
+
+
+.head{
+  text-align: center;
+  background: black;
+  color: white;
+  margin-top: 10px;
+  
+}
+
+
+.navigation{
+  text-align: center;
+  cursor: pointer;
+}
+
+.navigation:hover{
+  text-shadow: 2px 2px 5px rgb(151, 71, 255);
+}
+.home-head{
+  text-align: center;
+  text-shadow: 2px 2px 5px rgb(51, 255, 0);
+}
+
+.Home-grid{
+  margin: 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+  cursor: pointer;
+ 
+}
+
+.H1{
+  grid-column-start: 1;
+  grid-column-end: 2;
+ grid-row-start: 1;
+ grid-row-end: 3;
+}
+.H2{
+  grid-column: 2,3;
+  grid-row: 1,2;
+}
+
+.H3{
+
+position: absolute;
+right: 305px;
+top: 450px;
+}
+.Home-latest{
+  font-size: 40px;
+  text-decoration: underline red;
+  margin-left: 20px;
+}
+
+.latest{
+  display: flex;
+ justify-content: space-evenly;
+  cursor: pointer
+}
+
+.article{
+  display: flex;
+  flex-direction: column; 
+ margin-left: 50px;
+ margin-right: 50px;
+ cursor: pointer;
+}
+.post{
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  margin-left: 50px;
+ margin-right: 50px;
+ cursor: pointer;
+}
+.stories{
+  display: flex;
+ justify-content: space-evenly;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.ad-box{
+  height: 400px;
+ width: 500px;
+  border: 1px solid black;
+  margin-left: 550px;
+}
+
+.tour{
+  display: flex;
+  flex-direction: column;
+  margin-left: 35px;
+  cursor: pointer;
+}
+.hori-tour{
+  width:620px;
+  margin-left: 5px;
+}
+
+.ad-box2{
+  height: 800px;
+ width: 500px;
+  border: 1px solid black;
+  position: absolute;
+  top: 350px;
+  right: 50px;
+}
+.one{
+  text-align: center;
+}
+
+.onecontact{
+  text-shadow: 2px 2px 5px aquamarine;
+  text-align: center;
+}
